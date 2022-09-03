@@ -1,5 +1,5 @@
 //
-//  iosdc2022App.swift
+//  AppMain.swift
 //  iosdc2022
 //
 //  Created by AkkeyLab on 2022/09/03.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct iosdc2022App: App {
+struct AppMain: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
