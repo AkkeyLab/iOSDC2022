@@ -1,0 +1,8 @@
+xcassets:
+  - inputs: iosdc2022/Assets.xcassets
+    outputs:
+      - templateName: swift4
+        output: iosdc2022/Assets.swift
+        params:
+          enumName: Assets
+

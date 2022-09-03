@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     init() {
         if let particle = scene?.rootNode.childNode(withName: "particles", recursively: true)?.particleSystems?.first {
-            particle.particleImage = UIImage(named: "petal")
+            particle.particleImage = Assets.maple.image
             particle.particleColor = .white
             particle.particleColorVariation = SCNVector4Zero
         }
