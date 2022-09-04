@@ -5,24 +5,21 @@
 //  Created by AkkeyLab on 2022/09/03.
 //
 
-import SceneKit
+// 1. みなさん、iOSDC 楽しめてますか？🤩
 import SwiftUI
 
 struct ContentView: View {
     init() {
-        scene?.rootNode
-            .childNode(withName: .particles, recursively: false)?
-            .particleSystems?
-            .first?
-            .particleImage = Assets.maple.image
+        // 4. 参加・登壇・運営のみなさん、ありがとうございます！🥳
     }
 
     var body: some View {
-        SceneView(scene: scene)
-            .edgesIgnoringSafeArea(.all)
+        // 3. フィードバックもお忘れなく！🙌
+        Text("Hello, world!")
+            .padding()
     }
 
-    private let scene = SCNScene(named: .scene)
+    // 2. みなさん、ブログ書きましたか？😎
 }
 
 struct ContentViewPreviews: PreviewProvider {
