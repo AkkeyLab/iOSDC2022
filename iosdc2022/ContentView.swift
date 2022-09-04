@@ -10,27 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     init() {
-        if let particle = scene?.rootNode.childNode(withName: "particles", recursively: true)?.particleSystems?.first {
-            particle.particleImage = Assets.maple.image
-            particle.particleColor = .white
-            particle.particleColorVariation = SCNVector4Zero
-        }
+        scene?.rootNode
+            .childNode(withName: .particles, recursively: false)?
+            .particleSystems?
+            .first?
+            .particleImage = Assets.maple.image
     }
 
     var body: some View {
-        ZStack {
-            Color.black
-                .edgesIgnoringSafeArea(.all)
-            SceneView(scene: scene, pointOfView: camera, options: [])
-                .background(Color.clear)
-                .edgesIgnoringSafeArea(.all)
-        }
+        SceneView(scene: scene)
+            .edgesIgnoringSafeArea(.all)
     }
 
-    private let scene = SCNScene(named: "Scene.scn")
-    private var camera: SCNNode? {
-        scene?.rootNode.childNode(withName: "camera", recursively: false)
-    }
+    private let scene = SCNScene(named: .scene)
 }
 
 struct ContentViewPreviews: PreviewProvider {

@@ -13,6 +13,7 @@
 		F402ADC228C3462700943A37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F402ADC128C3462700943A37 /* Preview Assets.xcassets */; };
 		F402ADCB28C3655400943A37 /* Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = F402ADCA28C3655400943A37 /* Scene.scn */; };
 		F402ADCD28C3A91D00943A37 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402ADCC28C3A91D00943A37 /* Assets.swift */; };
+		F402ADCF28C50DED00943A37 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402ADCE28C50DED00943A37 /* String+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F402ADC128C3462700943A37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F402ADCA28C3655400943A37 /* Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Scene.scn; sourceTree = "<group>"; };
 		F402ADCC28C3A91D00943A37 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		F402ADCE28C50DED00943A37 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				F402ADCC28C3A91D00943A37 /* Assets.swift */,
 				F402ADBA28C3462600943A37 /* AppMain.swift */,
 				F402ADBC28C3462600943A37 /* ContentView.swift */,
+				F402ADCE28C50DED00943A37 /* String+.swift */,
 				F402ADCA28C3655400943A37 /* Scene.scn */,
 				F402ADBE28C3462700943A37 /* Assets.xcassets */,
 				F402ADC028C3462700943A37 /* Preview Content */,
@@ -146,6 +149,7 @@
 			files = (
 				F402ADBD28C3462600943A37 /* ContentView.swift in Sources */,
 				F402ADBB28C3462600943A37 /* AppMain.swift in Sources */,
+				F402ADCF28C50DED00943A37 /* String+.swift in Sources */,
 				F402ADCD28C3A91D00943A37 /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
